@@ -1,0 +1,23 @@
+/* Reset margin and padding to 0 for the entire page */
+body, html {
+    margin: 0;
+    padding: 2%;
+}
+
+/* Define styles for the left and right parts */
+.left-part {
+    float: left;
+    width: 30%;
+    background-color: #f0f0f0; /* Add a background color for visibility */
+}
+
+.right-part {
+    float: right;
+    width: 70%;
+    background-color: #e0e0e0; /* Add a background color for visibility */
+}
+
+/* Clear the float after the right part */
+.clear-float {
+    clear: both;
+}

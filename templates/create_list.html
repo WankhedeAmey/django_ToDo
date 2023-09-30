@@ -1,0 +1,9 @@
+<!-- create_list.html -->
+
+<h2>Create a New ToDoList</h2>
+
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Create List</button>
+</form>
